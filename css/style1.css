@@ -1,0 +1,39 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	
+
+}
+.espacio{
+
+	height: 4em;
+}
+
+.pie{
+	text-align: center;
+	background-color: lightgray;
+	height: 10em;
+}
+@media only screen and (max-width: 1400px) {
+  body {
+    background-color: blueviolet;
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+  body {
+    background-color: #eb3de8;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: #61eaff;
+  }
+}
+
+

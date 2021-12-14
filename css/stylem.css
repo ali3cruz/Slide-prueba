@@ -1,0 +1,30 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: red;
+
+}
+.espacio{
+
+	height: 4em;
+}
+
+.pie{
+	text-align: center;
+	background-color: lightblue;
+	height: 10em;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+.alison{
+	display: none;
+ }	
+}
